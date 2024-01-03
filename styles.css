@@ -1,0 +1,195 @@
+/* CUSTOM */
+body {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-link {
+  padding-bottom: 10px;
+}
+
+.contact-link a {
+  padding-bottom: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  background-color: #b70410;
+  padding: 40px 0;
+  border-bottom: solid 3px rgba(0, 0, 0, 0.3);
+}
+
+.introText {
+  font-size: 1.5em;
+  max-width: 500px;
+  line-height: 1.7em;
+  padding: 40px;
+  margin: auto;
+  text-align: left;
+}
+
+.mainContent {
+  border-top: solid 3px rgba(0, 0, 0, 0.3);
+  background-color: #b70410;
+  padding: 40px 10px;
+}
+
+.feedHolder {
+  border: white 2px solid;
+  max-width: 460px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  margin: 0 auto 42px auto;
+}
+
+.fb-page {
+  /*border: white 2px solid;*/
+}
+
+.card {
+  text-align: center;
+  -webkit-animation-name: App-logo-spin;
+  animation-name: App-logo-spin;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  max-width: 350px;
+}
+
+.card-shadow {
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+@-webkit-keyframes App-logo-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  38% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  60% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  78% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  38% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  60% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  78% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1.7em;
+  height: 1.7em;
+  outline: black;
+  vertical-align: bottom;
+  padding-right: 5px;
+  stroke-width: 1px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  /*fill: #4691f6;*/
+}
+
+.svg-icon circle {
+  /*stroke: #4691f6;*/
+  stroke-width: 1px;
+}
+
+.footer {
+  padding: 40px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .introText {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .App-logo {
+    padding: 10px;
+  }
+
+  .card {
+    max-width: 250px;
+  }
+}
