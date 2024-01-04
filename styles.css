@@ -12,6 +12,12 @@ p {
   margin: 0;
 }
 
+h3 {
+  border-left: #b70410 10px solid;
+  padding: 0 0 0 20px;
+  margin: 20px 0 0 0;
+}
+
 /* CUSTOM */
 body {
   font-family: "Libre Baskerville", serif;
@@ -251,7 +257,7 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 /* Particles */
-canvas {
+/* canvas {
   display: block;
 }
 
@@ -261,4 +267,4 @@ canvas {
   pointer-events: none;
   width: 100vw;
   height: 100vh;
-}
+} */
