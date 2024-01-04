@@ -229,6 +229,7 @@ SVG Icons - svgicons.sparkk.fr
 
 .footer {
   padding: 40px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -240,11 +241,24 @@ SVG Icons - svgicons.sparkk.fr
     text-align: left;
   }
 
-  .App-logo {
+  .topBit {
     padding: 10px;
   }
 
   .card {
     max-width: 250px;
   }
+}
+
+/* Particles */
+canvas {
+  display: block;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
 }
