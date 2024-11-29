@@ -29,47 +29,6 @@ body {
   text-align: center;
 }
 
-#bookingForm {
-  border: 2px solid #b70410;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-#bookingForm form {
-  width: 100%;
-  display: block;
-}
-
-#bookingForm label {
-  display: block;
-  width: 100%;
-}
-
-#bookingForm input,
-#bookingForm textarea {
-  display: block;
-  padding: 5px 7px;
-  font-size: 22px;
-  /* height: 40px; */
-  border: 1px solid grey;
-  border-radius: 5px;
-  width: 100%;
-
-  padding: 1rem 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  line-height: 1;
-  transition: box-shadow 0.22s ease-out;
-}
-
-#bookingForm input[type="submit"] {
-  width: 100%;
-  color: white;
-  font-weight: bold;
-  margin-top: 20px;
-  background: #b70410;
-}
-
 .instaEmbed {
   margin-top: 30px;
 }
@@ -86,14 +45,15 @@ body {
   text-decoration: none;
 }
 
-.topBit {
+.spinning-card-holder {
   text-align: center;
   background-color: #b70410;
   padding: 40px 0;
   border-bottom: solid 3px rgba(0, 0, 0, 0.3);
 }
 
-.introText {
+header,
+.insta-section {
   font-size: 1.5em;
   max-width: 500px;
   line-height: 1.7em;
@@ -102,7 +62,7 @@ body {
   text-align: left;
 }
 
-.mainContent {
+main {
   border-top: solid 3px rgba(0, 0, 0, 0.3);
   background-color: #b70410;
   padding: 10px 10px;
@@ -191,6 +151,10 @@ body {
   -webkit-animation-timing-function: ease-in;
   animation-timing-function: ease-in;
   max-width: 150px;
+}
+
+.contact-item {
+  padding-left: 10px;
 }
 
 .card-shadow {
@@ -282,7 +246,8 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 @media (max-width: 600px) {
-  .introText {
+  header,
+  .insta-section {
     font-size: 1.2em;
     line-height: 1.7em;
     padding: 20px;
@@ -290,7 +255,7 @@ SVG Icons - svgicons.sparkk.fr
     text-align: left;
   }
 
-  .topBit {
+  .spinning-card-holder {
     padding: 10px;
   }
 
@@ -298,16 +263,3 @@ SVG Icons - svgicons.sparkk.fr
     max-width: 250px;
   }
 }
-
-/* Particles */
-/* canvas {
-  display: block;
-}
-
-#particles-js {
-  position: fixed;
-  top: 0;
-  pointer-events: none;
-  width: 100vw;
-  height: 100vh;
-} */
